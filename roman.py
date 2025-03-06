@@ -23,6 +23,8 @@ def convert_roman_numerals(s):
             count +=10
         elif char == "L":
             count +=50
+        elif char == "C":
+            count +=100
     return count
 
 

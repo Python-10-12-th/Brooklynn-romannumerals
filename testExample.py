@@ -53,6 +53,10 @@ class TestRoman(unittest.TestCase):
         from roman import convert_roman_numerals
         self.assertEqual(convert_roman_numerals("L"), 50)
         
+    def test_C(self):
+        from roman import convert_roman_numerals
+        self.assertEqual(convert_roman_numerals("C"), 100)
+        
 if __name__ == '__main__':
     unittest.main()
 
