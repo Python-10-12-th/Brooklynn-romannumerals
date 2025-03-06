@@ -15,6 +15,8 @@ def convert_roman_numerals(s):
             count +=1
         elif char=="V":
             count +=5
+        elif char == "X":
+            count +=10
     return count
 
 

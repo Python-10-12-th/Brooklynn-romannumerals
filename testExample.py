@@ -33,6 +33,10 @@ class TestRoman(unittest.TestCase):
         from roman import convert_roman_numerals
         self.assertEqual(convert_roman_numerals("VI"), 6)
         
+    def test_X(self):
+       from roman import convert_roman_numerals
+       self.assertEqual(convert_roman_numerals("X"), 10) 
+        
 
 if __name__ == '__main__':
     unittest.main()
