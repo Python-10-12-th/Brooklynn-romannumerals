@@ -29,6 +29,10 @@ class TestRoman(unittest.TestCase):
         from roman import convert_roman_numerals
         self.assertEqual(convert_roman_numerals("IV"), 4)
         
+    def test_VI(self):
+        from roman import convert_roman_numerals
+        self.assertEqual(convert_roman_numerals("VI"), 6)
+        
 
 if __name__ == '__main__':
     unittest.main()
