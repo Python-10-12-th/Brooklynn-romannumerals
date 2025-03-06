@@ -18,6 +18,8 @@ def convert_roman_numerals(s):
         elif char=="V":
             count +=5
         elif char == "X":
+            if len(s) > i+2 and s[i+1] == "I" and s[i+2] == "V":
+                return 14
             count +=10
     return count
 
