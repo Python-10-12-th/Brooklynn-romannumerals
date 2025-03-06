@@ -21,6 +21,8 @@ def convert_roman_numerals(s):
             if len(s) > i+2 and s[i+1] == "I" and s[i+2] == "V":
                 return 14
             count +=10
+        elif char == "L":
+            count +=50
     return count
 
 
