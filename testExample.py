@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  4 09:50:58 2025
+
+@author: brooklynndominguez
+"""
+
+import unittest
+
+class TestRoman(unittest.TestCase):
+    def test_I(self):
+        from roman import convert_roman_numerals
+        self.assertEqual(convert_roman_numerals("I", 1))
+        
+    def test_II(self):
+        from roman 
+     #just repeat these steps for each roman numeral through I (to 4)
+     
+    def test_V(self):
+    from roman import convert_roman_numerals
+    self.assertEqual(convert_roman_numerals("V", 5))
+    
+    def test_IV(self):
+    from roman import convert_roman_numerals
+    self.assertEqual(convert_roman_numerals("IV", 4))
+    
+    def test_VI(self):
+    from roman import convert_roman_numerals
+    self.assertEqual(convert_roman_numerals("VI", 6))
