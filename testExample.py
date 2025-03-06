@@ -11,6 +11,8 @@ import unittest
 class TestRoman(unittest.TestCase):
     def test_I(self):
         from roman import convert_roman_numerals
-        self.assertEqual(convert_roman_numerals("I", 1))
+        self.assertEqual(convert_roman_numerals("I"), 1)
         
 
+if __name__ == '__main__':
+    unittest.main()
